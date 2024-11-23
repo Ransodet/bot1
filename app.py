@@ -3,9 +3,9 @@ from openai import OpenAI
 st.balloons()
 
 # Show title and description.
-st.title("💬 Mi App")
+st.title("💬 Esto es un ejercicio de ChatBot UACH")
 st.write(
-   "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses. "
+   "Este es un ejercicio de ChatBot montado con GitHub y Streamlit donde el profesor nos mostro el proceso para integrar un chatbot que utilize OpenAi"
    "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
    "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
