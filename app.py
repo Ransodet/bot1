@@ -3,7 +3,7 @@ from openai import OpenAI
 st.balloons()
 
 # Show title and description.
-st.title("💬 Esto es un ejercicio de ChatBot UACH")
+st.title("💬 Esto es un ejercicio de ChatBot UACH :blush: ")
 st.write(
    "Este es un ejercicio de ChatBot montado con GitHub y Streamlit donde el profesor nos mostro el proceso para integrar un chatbot que utilize OpenAi"
    "Para usar esta app, se proporciona una OpenAI API key, que se puede obtener en el siguiente enlace [here](https://platform.openai.com/account/api-keys). "
