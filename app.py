@@ -6,8 +6,8 @@ st.balloons()
 st.title("💬 Esto es un ejercicio de ChatBot UACH")
 st.write(
    "Este es un ejercicio de ChatBot montado con GitHub y Streamlit donde el profesor nos mostro el proceso para integrar un chatbot que utilize OpenAi"
-   "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-   "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+   "Para usar esta app, se proporciona una OpenAI API key, que se puede obtener en el siguiente enlace [here](https://platform.openai.com/account/api-keys). "
+   "Puedes aprender como construir apps de formas similares aqui [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
